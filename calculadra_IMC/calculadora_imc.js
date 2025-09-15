@@ -18,7 +18,7 @@ function imc(){
     } else if(valorIMC < 30){
         classificacao = "sobrepeso.";
     } else{
-        classificacao = "obesidade.";
+        classificacao = "obeso.";
     }
 
     resultado.innerHTML = `Olá ${nome.value}, seu IMC é ${valorIMC} e você está ${classificacao}`;
